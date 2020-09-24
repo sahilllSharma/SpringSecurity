@@ -1,5 +1,8 @@
 package com.example.demo;
 
+import javax.persistence.Entity;
+
+@Entity
 public class SecureXssAttackModule {
 
 	private int oauth;
